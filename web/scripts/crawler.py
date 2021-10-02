@@ -5,7 +5,7 @@ from hotdeal.models import Deal
 from datetime import datetime, timedelta
 
 response = requests.get(
-    "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu","https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu4","https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu8")
+    "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu")
 
 soup = BeautifulSoup(response.text, "html.parser")
 BOT_TOKEN ="2048807117:AAE9eFTo-lRlm7HgkAzcCQ6D0R_Nw_4HYJI"
